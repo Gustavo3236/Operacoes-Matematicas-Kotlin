@@ -1,1 +1,0 @@
-C:\Users\Pichau\Desktop\Operacoes-Matematicas-Kotlin-main\build\classes\kotlin\main\gustavo\operacoes\src\MainKt.class;C:\Users\Pichau\Desktop\Operacoes-Matematicas-Kotlin-main\build\classes\kotlin\main\gustavo\operacoes\src\funcoes\FazOperacaoMatKt.class
