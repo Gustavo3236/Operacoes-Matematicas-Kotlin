@@ -12,12 +12,14 @@ fun fazOperacaoMat() {
     val numero: Double = leitor.nextDouble()
     println(numero)
 
-    println("""
+    println(
+        """
                 Qual a operação que deseja fazer?
         
                         Operadoes válidos:
         adição(+), subtração(-), divisão(/), multiplicação(*)
-    """.trimMargin())
+    """.trimMargin()
+    )
     val operacao: String = readln()
     if (operacao != "+" && operacao != "-" && operacao != "/" && operacao != "*") {
         println("Erro: Você só pode inserir operadores válidos.")
@@ -34,12 +36,15 @@ fun fazOperacaoMat() {
         "+" -> {
             resultado = numero + proximoNumero
         }
+
         "-" -> {
             resultado = numero - proximoNumero
         }
+
         "/" -> {
             resultado = numero / proximoNumero
         }
+
         "*" -> {
             resultado = numero * proximoNumero
         }
